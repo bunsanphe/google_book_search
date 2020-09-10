@@ -1,6 +1,6 @@
 import React from "react";
 
-functoin Search() {
+function Search() {
     return (
         <div>
             <h1>search placeholder</h1>

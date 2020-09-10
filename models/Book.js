@@ -14,10 +14,14 @@ const bookSchema = new Schema({
         type: String,
         required: true
     },
-    image: {
-        type: 
-    },
+    image: { 
+        type: String, 
+        requied: true 
+    }, 
     link: {
-
+        type: String, 
+        required: true
     }
-})
+});
+
+const Book = mongoose.model("Book", bookSchema)
